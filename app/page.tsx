@@ -15,12 +15,12 @@ export default function Home() {
       <section className="container mx-auto px-4 py-20">
         <div className="text-center">
           <h1 className="text-5xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
-            Sua Plataforma Profissional
+            Sua Plataforma Digital
           </h1>
           <p className="text-xl mb-8 text-gray-300">
             Sites profissionais e modernos para impulsionar seu negócio
           </p>
-          <button 
+          <button
             onClick={openModal}
             className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full transition-all duration-300 cursor-pointer hover:scale-105 active:scale-95 transform"
           >
@@ -82,7 +82,7 @@ export default function Home() {
         <div className="bg-blue-600 rounded-2xl p-12 text-center">
           <h2 className="text-3xl font-bold mb-6">Pronto para começar?</h2>
           <p className="text-xl mb-8">Vamos transformar sua presença digital hoje mesmo</p>
-          <button 
+          <button
             onClick={openModal}
             className="bg-white text-blue-600 hover:bg-gray-100 font-bold py-3 px-8 rounded-full transition-all duration-300 cursor-pointer hover:scale-105 active:scale-95 transform"
           >
